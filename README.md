@@ -15,12 +15,15 @@ QtCrearor、MSVCで組み込めるようにしたプロジェクト一式です�
 
 - MSVCの場合
   - 全般>構成の種類をスタティックライブラリに変更
+  
   ![](img/01.png)
   - C/C++>プリプロセッサ>プリプロセッサの定義から`TAGLIB_STATIC`を定義する
+  
   ![](img/02.png)
 
 - QtCreatorの場合
   - MAKE_TAGLIB_LIBの方を無効にしてTAGLIB_STATICの方を有効にする
+  
   ![](img/03.png)
 
 ### ライセンス
