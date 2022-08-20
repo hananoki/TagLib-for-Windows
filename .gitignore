@@ -1,2 +1,4 @@
 /release
 /debug
+/.qmake.stash
+/taglib.vcxproj.user
